@@ -15,7 +15,8 @@ Metodologi Screening
 4. Likuiditas : Rata-rata nilai transaksi 20 hari terakhir (Close × Volume)
 5. Volatilitas : ATR (14), ATR dalam persentase harga
 
-🔍 Kriteria Screening (Hard Filter)
+Kriteria Screening (Hard Filter)
+
 Saham harus memenuhi seluruh syarat berikut:
   1)P/E > 0 dan < 40
   2)Price to Book < 6
