@@ -44,8 +44,11 @@ Menampilkan Top 5 saham dengan skor tertinggi, screening_result.csv (hasil lengk
 Contoh output:
 
 === TOP TRADING CANDIDATES ===
+
 ticker     score   ret_6m   avg_value_20   atr_pct
+
 BBCA.JK    92.4    18.5     3.2e10         3.1
+
 BMRI.JK    88.7    21.2     2.8e10         4.0
 
 🛠️ Instalasi
