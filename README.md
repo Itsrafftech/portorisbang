@@ -18,26 +18,19 @@ Metodologi Screening
 Kriteria Screening (Hard Filter)
 
 Saham harus memenuhi seluruh syarat berikut:
+1. P/E > 0 dan < 40
+2. Price to Book < 6
+3. Data fundamental & harga tersedia
+4. Harga di atas MA20
+5. Return 6 bulan > -3%
+6. Dividend Yield tersedia (indikasi data valid)
+7. Jika satu syarat gagal → saham langsung dieliminasi.
 
-  1)P/E > 0 dan < 40
-  
-  2)Price to Book < 6
-  
-  3)Data fundamental & harga tersedia
-  
-  4)Harga di atas MA20
-  
-  5)Return 6 bulan > -3%
-  
-  6)Dividend Yield tersedia (indikasi data valid)
-  
-  7)Jika satu syarat gagal → saham langsung dieliminasi.
-
-🏆 Sistem Scoring
-
+Sistem Scoring
 Setelah lolos screening, saham akan diberi skor berdasarkan: Faktor	Keterangan, Momentum	Return 6 bulan (maks. 50%), Trend	Bonus jika Price > MA20 > MA50, Likuiditas	Bonus berdasarkan nilai transaksi, Volatilitas	Bonus jika ATR% berada di rentang sehat (2–8%), Saham kemudian diurutkan dari skor tertinggi.
 
-📈 Output
+Output
+
 Terminal
 
 Menampilkan Top 5 saham dengan skor tertinggi, screening_result.csv (hasil lengkap screening & scoring)
