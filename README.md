@@ -19,11 +19,17 @@ Kriteria Screening (Hard Filter)
 
 Saham harus memenuhi seluruh syarat berikut:
   1)P/E > 0 dan < 40
+  
   2)Price to Book < 6
+  
   3)Data fundamental & harga tersedia
+  
   4)Harga di atas MA20
+  
   5)Return 6 bulan > -3%
+  
   6)Dividend Yield tersedia (indikasi data valid)
+  
   7)Jika satu syarat gagal → saham langsung dieliminasi.
 
 🏆 Sistem Scoring
