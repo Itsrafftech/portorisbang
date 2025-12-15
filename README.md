@@ -18,6 +18,7 @@ Metodologi Screening
 Kriteria Screening (Hard Filter)
 
 Saham harus memenuhi seluruh syarat berikut:
+
   1)P/E > 0 dan < 40
   
   2)Price to Book < 6
@@ -33,21 +34,15 @@ Saham harus memenuhi seluruh syarat berikut:
   7)Jika satu syarat gagal → saham langsung dieliminasi.
 
 🏆 Sistem Scoring
-Setelah lolos screening, saham akan diberi skor berdasarkan:
-Faktor	Keterangan
-Momentum	Return 6 bulan (maks. 50%)
-Trend	Bonus jika Price > MA20 > MA50
-Likuiditas	Bonus berdasarkan nilai transaksi
-Volatilitas	Bonus jika ATR% berada di rentang sehat (2–8%)
-Saham kemudian diurutkan dari skor tertinggi.
+
+Setelah lolos screening, saham akan diberi skor berdasarkan: Faktor	Keterangan, Momentum	Return 6 bulan (maks. 50%), Trend	Bonus jika Price > MA20 > MA50, Likuiditas	Bonus berdasarkan nilai transaksi, Volatilitas	Bonus jika ATR% berada di rentang sehat (2–8%), Saham kemudian diurutkan dari skor tertinggi.
 
 📈 Output
-
 Terminal
-Menampilkan Top 5 saham dengan skor tertinggi
-File
-screening_result.csv (hasil lengkap screening & scoring)
+
+Menampilkan Top 5 saham dengan skor tertinggi, screening_result.csv (hasil lengkap screening & scoring)
 Contoh output:
+
 === TOP TRADING CANDIDATES ===
 ticker     score   ret_6m   avg_value_20   atr_pct
 BBCA.JK    92.4    18.5     3.2e10         3.1
