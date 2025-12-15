@@ -9,27 +9,11 @@ Project ini ditujukan untuk retail trader / mahasiswa yang ingin membangun syste
 Fitur Utama : Mengambil data saham otomatis menggunakan Yahoo Finance (yfinance), Screening keras (hard filter) untuk mengeliminasi saham berisiko, Scoring & ranking saham berdasarkan multi-faktor, Mengukur likuiditas berbasis nilai transaksi, bukan volume semata, Kontrol volatilitas menggunakan ATR (Average True Range), Output hasil screening ke file CSV, Visualisasi harga dengan Moving Average
 
 Metodologi Screening
-1. Fundamental (Value Check)
-   -Trailing P/E Ratio
-   -Price to Book Value
-   -Dividend Yield (sebagai validasi data)
-
-2. Momentum
-   -Return 3 bulan
-   -Return 6 bulan
-   -Return 12 bulan
-
-3. Trend
-Harga vs MA20
-Konfirmasi trend dengan MA50
-
-4. Likuiditas
-Rata-rata nilai transaksi 20 hari terakhir
-(Close × Volume)
-
-5. Volatilitas
-ATR (14)
-ATR dalam persentase harga
+1. Fundamental (Value Check) : Trailing P/E Ratio, Price to Book Value, Dividend Yield (sebagai validasi data)
+2. Momentum : Return 3 bulan, Return 6 bulan, Return 12 bulan
+3. Trend : Harga vs MA20, Konfirmasi trend dengan MA50
+4. Likuiditas : Rata-rata nilai transaksi 20 hari terakhir (Close × Volume)
+5. Volatilitas : ATR (14), ATR dalam persentase harga
 
 🔍 Kriteria Screening (Hard Filter)
 Saham harus memenuhi seluruh syarat berikut:
