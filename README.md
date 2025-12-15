@@ -7,12 +7,12 @@ Sebuah Python-based stock screener untuk saham Indonesia (IDX) yang mengombinasi
 Project ini ditujukan untuk retail trader / mahasiswa yang ingin membangun systematic trading approach, bukan sekadar indikator manual.
 
 🚀 Fitur Utama
-✅ Mengambil data saham otomatis menggunakan Yahoo Finance (yfinance)
-✅ Screening keras (hard filter) untuk mengeliminasi saham berisiko
-✅ Scoring & ranking saham berdasarkan multi-faktor
-✅ Mengukur likuiditas berbasis nilai transaksi, bukan volume semata
-✅ Kontrol volatilitas menggunakan ATR (Average True Range)
-✅ Output hasil screening ke file CSV
+✅ Mengambil data saham otomatis menggunakan Yahoo Finance (yfinance) 
+✅ Screening keras (hard filter) untuk mengeliminasi saham berisiko 
+✅ Scoring & ranking saham berdasarkan multi-faktor 
+✅ Mengukur likuiditas berbasis nilai transaksi, bukan volume semata 
+✅ Kontrol volatilitas menggunakan ATR (Average True Range) 
+✅ Output hasil screening ke file CSV 
 ✅ Visualisasi harga dengan Moving Average
 
 🧠 Metodologi Screening
