@@ -44,42 +44,40 @@ Menampilkan Top 5 saham dengan skor tertinggi, screening_result.csv (hasil lengk
 Contoh output:
 
 === TOP TRADING CANDIDATES ===
-
 ticker     score   ret_6m   avg_value_20   atr_pct
-
 BBCA.JK    92.4    18.5     3.2e10         3.1
-
 BMRI.JK    88.7    21.2     2.8e10         4.0
 
-🛠️ Instalasi
-Pastikan Python ≥ 3.9
-pip install yfinance pandas matplotlib
-▶️ Cara Menjalankan
-python screener.py
-Hasil akan otomatis:
-Ditampilkan di terminal
+Instalasi 
+
+1. Pastikan Python ≥ 3.9
+2. pip install yfinance pandas matplotlib
+Cara Menjalankan : python screener.py
+
+Hasil akan otomatis: Ditampilkan di terminal
+
 Disimpan ke screening_result.csv
 
-⚠️ Catatan Penting
-Data fundamental Yahoo Finance tidak selalu lengkap untuk saham Indonesia
-Project ini BELUM termasuk backtesting
-Tidak ada manajemen risiko (position sizing, stop loss, exit rule)
-Cocok untuk candidate selection, bukan auto-trading
+Catatan Penting :
 
-📌 Pengembangan Selanjutnya (Roadmap)
- Refactor data fetch (single API call per saham)
- Backtesting historis (PnL, drawdown)
- Entry & exit rules berbasis ATR
- Position sizing otomatis
- Universe seluruh saham IDX (tanpa survivorship bias)
+1. Data fundamental Yahoo Finance tidak selalu lengkap untuk saham Indonesia
+2. Project ini BELUM termasuk backtesting
+3. Tidak ada manajemen risiko (position sizing, stop loss, exit rule)
+4. Cocok untuk candidate selection, bukan auto-trading
+
+Pengembangan Selanjutnya (Roadmap) 
+1. Refactor data fetch (single API call per saham)
+2. Backtesting historis (PnL, drawdown)
+3. Entry & exit rules berbasis ATR
+4. Position sizing otomatis
+5. Universe seluruh saham IDX (tanpa survivorship bias)
  Daily auto screener
 
-🎯 Target Pengguna
-Mahasiswa saham enthusiast
-Retail trader yang ingin naik level
-Quant-minded investor
-Personal research & portfolio project
+Target Pengguna 
+1. Mahasiswa saham enthusiast
+2. Retail trader yang ingin naik level
+3. Quant-minded investor
+4. Personal research & portfolio project
 
-⚖️ Disclaimer
-Project ini bukan rekomendasi investasi.
+Disclaimer : Project ini bukan rekomendasi investasi.
 Segala keputusan trading sepenuhnya menjadi tanggung jawab pengguna.
